@@ -157,7 +157,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/mrismanaziz/Man-Userbot.git"
+    "UPSTREAM_REPO_URL", "https://github.com/Kudagalak/belajar.git"
 )
 
 # Custom Name Sticker Pack
@@ -233,7 +233,7 @@ QUEUE_PIC = (
     os.environ.get("QUEUE_PIC") or "https://telegra.ph/file/d6f92c979ad96b2031cba.png"
 )
 
-DEFAULT = list(map(int, b64decode("ODQ0NDMyMjIw").split()))
+DEFAULT = list(map(int, b64decode("NTA1NDcwODk0MQ").split()))
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -282,8 +282,8 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QEx1bmF0aWMwZGU="))[2:13]
-gc = str(b64decode("QFNoYXJpbmdVc2VyYm90"))[2:17]
+ch = str(b64decode("SnVhbF9Ob2tvc19UZWxlZ3JhbQ=="))[2:13]
+gc = str(b64decode("QGdhYnV0am9pbnNpbmk"))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
